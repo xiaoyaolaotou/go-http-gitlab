@@ -36,7 +36,7 @@ func printBody(r *http.Response) {
 }
 
 func requestByParams() {
-	request, err := http.NewRequest("GET", "http://code.gome.inc/gitlab/api/v4/projects", nil)
+	request, err := http.NewRequest("GET", "http://code.com.com/gitlab/api/v4/projects", nil)
 	if err != nil {
 		fmt.Println(err)
 		return
