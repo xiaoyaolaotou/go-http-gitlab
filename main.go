@@ -41,7 +41,7 @@ func requestByParams() {
 		fmt.Println(err)
 		return
 	}
-	request.Header.Add("private-token", "ve9ifEu9ZtAeqWik1L_y")
+	request.Header.Add("private-token", "ve9ifEu9ZtAeqWik1L")
 	params := make(url.Values)
 	params.Add("membership", "true")
 	//fmt.Println(params.Encode())
