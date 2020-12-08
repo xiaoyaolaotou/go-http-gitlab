@@ -65,10 +65,6 @@ func requestByParams(page string) *http.Response {
 		return nil
 	}
 	return r
-	// 关闭Body
-
-	// 打印相关数据
-	//printBody(r)
 
 }
 
